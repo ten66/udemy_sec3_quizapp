@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:udemy_sec3_quizapp/start_screen.dart';
+import 'package:udemy_sec3_quizapp/quiz.dart';
 
 void main() {
-  runApp(
-    const MaterialApp(
-      home: Scaffold(
-        body: StartScreen(),
-      ),
-    ),
-  );
+  runApp(const Quiz());
 }
